@@ -472,7 +472,7 @@ header{
 .content-footer{
     
     margin: 0 auto;
-
+      padding: 120px;
     display: flex;
     flex-direction: column;
      align-items: center; 
@@ -641,12 +641,14 @@ header{
               justify-content: center;
                 width: 100%;
         }
-        .content-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+      
+.content-footer{
+    
+    margin: 0 auto;
+      padding: 20px;
+
 }
+
   }
  
   
