@@ -14,9 +14,9 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
-/* body{
-    overflow: hidden;
-} */
+ body{
+    overflow-x: hidden;
+ }
 /* share style */
 .display-flex{
     display: flex;
