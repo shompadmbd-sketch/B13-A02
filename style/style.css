@@ -70,6 +70,14 @@ header{
     width: 16px;
     height: 16px;
 }
+.hamburger-menu{
+    display: none;
+}
+.hamburger-menu i{
+    color: #FFFFFF;
+    width: 24px;
+    font-size: 1.24rem;
+}
 /* banner layout style */
 .banner-section{
     background-image: url(../imsges/hero-bg.png);
@@ -210,6 +218,8 @@ header{
         color: #FFFFFF;
         padding-top: 16px;
         line-height: 30px;
+        padding-left: 200px;
+        padding-right: 200px;
     }
     .join-descirption{
          font-size: 1rem;
@@ -227,17 +237,17 @@ header{
           gap: 80px;
         margin: 0 auto; 
     }
-    .hr-one{
-        max-width: 1200px;  
-        width: 100%;
+   
+     hr{
+            max-width: 1200px;  
+         width: 100;
         border: none;
     height: 1px;
     margin: 0 auto;
    background-color: #331d4e;
    margin-top: 80px ;
    margin-bottom: 80px;
-      
-    } 
+    }
    .client-container h3{
     text-transform: capitalize;
       color: #00FF88;
@@ -448,6 +458,7 @@ header{
    margin: 10px 0;
 
 }
+/* footer layout style */
 .footer-section{
     background-image: url(../imsges/footer-bg.png);
    background-size: cover;
@@ -509,3 +520,43 @@ header{
    background-color: #331d4e;
    
   }
+  /* responsive lyaout max-width 576px */
+  @media screen and (max-width: 576px) {
+     .nav-link, .btn{
+        display: none;
+     }
+     .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+     }
+    .navbar>span{
+    display: inline;
+   margin-right: 5px;
+
+    }
+    .navbar img{
+        width: 137px;
+    }
+    .hamburger-menu{
+        width: 24px;
+    }
+    .badge-content{
+   position: absolute;
+   top: 10px;
+   right: 60px;
+   z-index: 5;
+}
+.about-content h2{
+       
+       font-size: 2rem;
+       
+    }
+    .about-content p{
+       
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
