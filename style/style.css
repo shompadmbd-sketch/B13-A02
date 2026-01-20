@@ -641,8 +641,8 @@ header{
    background-color: #331d4e;
    
   }
-  /* responsive lyaout max-width 576px */
-  @media screen and (max-width: 576px) {
+  /* responsive lyaout max-width 575px */
+  @media screen and (max-width: 575px) {
      .nav-link, .btn{
         display: none;
      }
@@ -685,9 +685,18 @@ header{
         height: 1px;
        
     }
+    .choose-section{
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+   }
+    .choose-container h2{
+        font-size: 2rem;
+    }
   .client-container {
     
-        grid-template-columns: 1fr; 
+        grid-template-columns: repeat(2, 1fr); 
     }
          .client-container h3{
       font-size: 2.5rem;
