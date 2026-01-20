@@ -428,6 +428,7 @@ header{
 }
 .feature-section{
     background-color: #1A0B2E;
+    padding-bottom: 0px;
    
 }
 /* fetured layout style */
@@ -602,7 +603,8 @@ header{
     font-size: 1rem;
     font-weight: 400;
     color: #FFFFFF;
-   padding-top: 10px;
+   /* padding-top: 10px; */
+   margin-top: 20px;
 }
 
   .hr-one{
@@ -707,9 +709,9 @@ header{
   .host-content h2{
     font-size: 2rem;
   }
-  .host-section{
-    
-    padding-bottom: 30px;
+  
+.host-section{
+  padding-bottom: 40px;
 }
  .host-parent-card{
 
