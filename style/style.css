@@ -68,6 +68,18 @@ header{
     justify-content: center;
     text-align: center;
     gap: 8px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+.btn:hover{
+    transform: translate(-4px) scale(1.02);
+    box-shadow: 0 10px 25px rgba(251, 9, 180, 0.4);
+    filter: brightness(1.1);
+}
+.brn:active{
+    transform: scale(0.96);
 }
 
 .btn img{
@@ -202,10 +214,15 @@ header{
         transform: scale(1);
     }
 }
+.spotify-btn:hover{
+    transform: scale(1.05) translateY(-2px); 
+     animation: glowing-premium 1.5s infinite alternate ease-in-out;
+}
   
 .spotify-btn img{
     width: 20px;
     height: 20px;
+    display: block;
 }
 .Subscribe-btn-parent{
     margin-top: 24px;
