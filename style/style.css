@@ -585,10 +585,11 @@ header{
     
 }
 .footer-links{
-    gap: 30px;
+    gap: 20px; 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
+    align-items: center;
     
 }
 .icon-img-content{
@@ -742,10 +743,11 @@ header{
         margin: 20px 0;
         line-height: 1.6;
         flex: none;
+
     }
-        .img-logo {
-              justify-content: center;
-                width: 100%;
+   .img-logo {
+         justify-content: center;
+         width: 100%;
         }
       
 .content-footer{
