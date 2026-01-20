@@ -754,8 +754,14 @@ header{
       padding: 20px;
 
 }
+.bg-image{
+    width: 219px;
+}
 .footer-links{
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 16px;
 }
 .icon-img-content{
     display: flex;
