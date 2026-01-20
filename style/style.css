@@ -170,7 +170,7 @@ header{
     
 }
 
- .spotify-btn{
+ /* .spotify-btn{
     border: none;
     padding: 12.5px 20px;
     font-size: 1rem;
@@ -185,7 +185,7 @@ header{
     gap: 8px;
     position: relative;
     overflow: hidden;
-}  
+}   */
 
 .spotify-btn {
     border: none;
@@ -208,7 +208,7 @@ header{
         transform: scale(1);
     }
     50% {
-        transform: scale(1.06); /* Halka boro hobe */
+        transform: scale(1.06); 
     }
     100% {
         transform: scale(1);
@@ -562,7 +562,7 @@ header{
     font-size: 0.85rem;
     gap: 6px;
 }
-/* host section */
+/* host section layout */
 .host-section{
     background-color: #1A0B2E;
     padding-bottom: 120px;
