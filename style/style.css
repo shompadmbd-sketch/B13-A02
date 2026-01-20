@@ -493,9 +493,9 @@ header{
      overflow: hidden;
      z-index: 1;
    border: 2px;
-   padding-top: 4px;
-   padding-left: 4px;
-   padding-right: 4px;
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
    padding-bottom: 24px;
    
   
@@ -505,7 +505,7 @@ header{
        position: absolute;
        width: 250px;
        height: 150%;
-       background: linear-gradient(180deg, #00b7ff, #ff30ff);
+       background: linear-gradient(180deg, #00FF88, #ff30ff);
        animation: rotate-border 3s linear infinite;
         top: -25%;
          left: 20%;
@@ -539,7 +539,7 @@ header{
 .card-video iframe {
     width: 100%; 
     height: 220px;
-    border: none; 
+     border: none;  
 }
 .card-video h3 {
     color: #FFFFFF;
