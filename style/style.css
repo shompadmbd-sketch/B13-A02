@@ -429,6 +429,7 @@ header{
 .feature-section{
     background-color: #1A0B2E;
     padding-bottom: 0px;
+    margin: 0px;
    
 }
 /* fetured layout style */
@@ -584,18 +585,27 @@ header{
     
 }
 .footer-links{
-    gap: 40px;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    
 }
 .icon-img-content{
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 500;
-    margin-right: 8px !important;
-    vertical-align: middle;
-    text-align: center;
+    justify-content: center;
+     vertical-align: middle;
+     text-align: center; 
     gap: 8px;
     padding-bottom: 32px;
 
+}
+.icon-img-content img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
 }
 
 
@@ -609,8 +619,8 @@ header{
 
   .hr-one{
      max-width: 650px;  
-        width: 100%;
-        border: none;
+    width: 100%;
+     border: none;
     height: 1px;
     margin: 0 auto;
    background-color: #331d4e;
@@ -743,6 +753,13 @@ header{
     margin: 0 auto;
       padding: 20px;
 
+}
+.footer-links{
+    grid-template-columns: repeat(2, 1fr);
+}
+.icon-img-content{
+    display: flex;
+    justify-content: center;
 }
 
   }
