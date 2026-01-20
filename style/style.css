@@ -529,7 +529,7 @@ header{
     color: #FFFFFF;
     font-size: 3rem;
    font-weight: 700;
-   padding-top: 142px;
+   padding-top: 120px;
    padding-bottom: 40px;
 }
 .host-parent-card {
@@ -741,8 +741,11 @@ header{
     padding-top: 0;
   }
   .host-content h2{
+  
     font-size: 2rem;
-  }
+   padding-top: 60px;
+   padding-bottom: 24px;
+}
   
 .host-section{
   padding-bottom: 40px;
